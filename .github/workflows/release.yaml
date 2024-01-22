@@ -32,6 +32,8 @@ jobs:
             cp .helmignore ./release
             cp values.yaml ./release
             cp LICENSE ./release
+            ls -al
+            ls -al release
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.6.0
         with:
