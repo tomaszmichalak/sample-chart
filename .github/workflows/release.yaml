@@ -35,7 +35,7 @@ jobs:
             ls -al
             ls -al sample-chart
       - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.6.0
+        uses: helm/chart-releaser-action@v1.4.1
         with:
           charts_dir: .
         env:
