@@ -26,14 +26,14 @@ jobs:
 
       - name: Prepare chart files
         run: |
-            mkdir release
-            cp -r templates ./release
-            cp Chart.yaml ./release
-            cp .helmignore ./release
-            cp values.yaml ./release
-            cp LICENSE ./release
+            mkdir sample-chart
+            cp -r templates ./sample-chart
+            cp Chart.yaml ./sample-chart
+            cp .helmignore ./sample-chart
+            cp values.yaml ./sample-chart
+            cp LICENSE ./sample-chart
             ls -al
-            ls -al release
+            ls -al sample-chart
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.6.0
         with:
