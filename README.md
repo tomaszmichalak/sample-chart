@@ -3,10 +3,25 @@
 ## Goal
 This chart is a sample chart to show how to release helm chart within GitHub.
 
+## Run
+
+Run from local chart:
 
 ```bash
-helm template --output-dir generated test .
 helm install --name sample-chart .
+```
+
+Run the released chart:
+
+```bash
+helm repo add sample-chart https://tomaszmichalak.github.io/sample-chart
+helm upgrade --install sample-chart sample-chart/sample-chart
+```
+
+or
+
+```bash
+helm upgrade --install release-name sample-chart --repo https://tomaszmichalak.github.io/charts --version 0.1.0
 ```
 
 ## Release
