@@ -3,6 +3,16 @@ entries:
   sample-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-01-23T10:13:18.142283659Z"
+    description: A Helm chart for Kubernetes
+    digest: 4222af7b14e97e43da54d267f00d08b1b13f4410a4453d075a5d3407c8b615ab
+    name: sample-chart
+    type: application
+    urls:
+    - https://github.com/tomaszmichalak/sample-chart/releases/download/sample-chart-0.4.0/sample-chart-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-01-23T08:19:39.76113795Z"
     description: A Helm chart for Kubernetes
     digest: 95232fce4f7e5cbeb03f2a497f221da24c727b03e4cb23c35d5e42bdb4d6d383
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/tomaszmichalak/sample-chart/releases/download/sample-chart-0.3.0/sample-chart-0.3.0.tgz
     version: 0.3.0
-generated: "2024-01-23T08:19:39.761147257Z"
+generated: "2024-01-23T10:13:18.142295011Z"
